@@ -29,12 +29,14 @@ CLasses:
         - reset
 
 '''
-from Classes.fruit import Fruit
+from classes.fruit import Fruit
+from classes.snake import Snake
+from classes.game import  Game
 
-# def main():
+def main():
+
+    game = Game()
 
 
-
-
-# if __name__ == "__main__":
-#     main()
+if __name__ == "__main__":
+    main()
